@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Gestion de Stock</title>
+    <link  media="screen" href="css/main.css" rel="stylesheet" />
+    <link  media="screen" href="css/animate.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="logo/navicon.png" />
+</head>
+<body>
+<section>
+    <div class="connecte zoomIn animated">
+        <h3>SEOR : SOCIETE DE L'EAU ET DE L'ASSINISSEMENT D'ORAN</h3>
+        <p>La Soci�t� de l'eau et de l'Assainissement d'Oran (SEOR),
+             soci�t� par actions, dont les actionnaires sont l'Alg�rienne des Eaux (ADE) et l'Office National de l'Assainissement (ONA),
+            mise en place le 1er avril 2008, a pris en charge la gestion d�l�gu�e de l'eau et de l'assainissement de la wilaya d'Oran,
+            avec pour objectif principal, l'am�lioration de la qualit� du service d'alimentation en eau potable. <br> <a
+                target="_blank" href="http://www.seor.dz/index.php?option=com_content&view=article&id=60&Itemid=142">Lire la suite</a></p>
+    </div>
+    <div class="connecte zoomIn animated">
+        <form  method="post"  action="#">
+            <img class="log-o" src="logo/seor.png"/>
+            <table>
+                <tr><th class="in">
+                        <img src="logo/user.png" class="user-logo" id="user"/>
+                        <input name="identif" type="text" required="required" placeholder="Nom d'ulilisateur" value=""/>
+                    </th></tr>
+                <tr>
+                    <th class="in">
+                        <img src="logo/Lock.png" class="password-logo"/>
+                        <input type="password" name="password"   required="required" placeholder="Mot de passe" value=""/>
+                    </th>
+                </tr>
+                <tr>
+                    <th id="checkbox">
+                        <input type="checkbox" name="remember_me" value="on"/>
+                        <label  for="remember_me" >Garder la Session active</label>
+                    </th>
+                <tr>
+                    <th class="in bg_blue"><input name="valider" type="submit" value="Connecte" class="connecte_button" /></th></tr>
+            </table>
+            <div class="lien-index">
+                <a href="#">inscreption</a><a href="#" id="oublier">oublie mot de passe ?</a>
+            </div>
+        </form >
+    </div>
+</section>
+<footer>
+    <ul>
+        <li>Powered By <a href="https://github.com/SakhriHoussem">Sakhri Houssem</a></li>
+        <li>Copyright� <a href="#">SEOR</a></li>
+    </ul>
+</footer>
+<script type="text/javascript" src="js/jQuery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

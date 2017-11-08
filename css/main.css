@@ -1,0 +1,525 @@
+@font-face {
+  font-family: 'aller';
+  src: url("font/Aller_BdIt.ttf") format("truetype");
+}
+::-webkit-input-placeholder {
+  color: #6e7381;
+  text-align: center;
+}
+.user-logo,.password-logo {
+  width: 37px;
+  height: 37px;
+  position: relative;
+  top: 0px;
+}
+
+*:-moz-placeholder {
+  /* FF 4-18 */
+  color: #6e7381;
+}
+
+*::-moz-placeholder {
+  /* FF 19+ */
+  color: #6e7381;
+}
+
+*:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #6e7381;
+}
+
+
+footer ul {
+  margin: 0;
+  padding: 15px;
+  color: grey;
+  float: right;
+}
+
+footer ul li{
+  margin-right: 25px;
+  display: inline-block;
+}
+
+footer ul li a:hover{
+  color: white;
+}
+
+footer ul li a{
+  color: gray;
+}
+footer{
+  background-color: gainsboro;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+}
+
+p{
+  padding: 28px;
+  text-align: justify;
+}
+p a{
+  float: right;
+}
+
+h3{
+  text-align: center;
+  color: #4072b4;
+}
+
+section {
+  margin: auto;
+  width: 990px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body {
+ transition: 0.5s;
+ font-family: "aller";
+ /*background-image: url(../image/Dollarphotoclub_2.jpg);
+ background-position: left top;
+ background-repeat: repeat-y;*/
+  margin: 0px;
+}
+
+.connecte  input[type="submit"]{
+
+  color: white;
+}
+body .connecte table tr .bg_blue{
+  background-color: #4072b4;
+}
+
+.erreur-fermer{
+  background:transparent;
+  border: 1px solid transparent;
+  color:#ff6154;
+  width: 20px;
+  height: 20px;
+  float: right;
+  font-size: 14px;
+}
+
+.connecte:hover {
+
+  border: #4072b4 2px solid;
+}
+
+.connecte {
+  padding: 0px;
+  box-shadow: 2px 2px 10px gray;
+  border: #4072b4 2px dashed;
+  background-color: rgba(239, 239, 239, 0.5);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: inline-block;
+  margin: 40px;
+  height: 370px;
+  vertical-align: middle;
+}
+  .connecte table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+    .connecte table input {
+      font-family: "aller";
+      border: 0px;
+      color: #4072b4;
+      background-color: transparent;
+    }
+      .connecte table input:focus {
+        outline: none;
+      }
+      .connecte table input:required, .connecte table input:required:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    .connecte table input[type=text] {
+      margin-top: 7px;
+    }
+    .connecte table .connecte-user {
+      border: 1px solid gray;
+      padding: 0px;
+    }
+    .connecte table tr th {
+      border: 1px solid #4072b4;
+      margin-bottom: 10px;
+    }
+    .connecte table tr .erreur {
+      border: 0px;
+      background-color: transparent;
+      position: relative;
+      bottom: 40px;
+    }
+    .connecte table tr .in {
+      background-color: white;
+      text-align: center;
+    }
+      .connecte table tr .in:focus, .connecte table tr .in:hover {
+        box-shadow: 0px 0px 5px #4072b4;
+      }
+
+.connecte-password {
+  padding: 0px;
+}
+
+.connecte_button {
+  padding: 0px;
+  background-color: white;
+}
+
+.faux {
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+  font-weight: 100;
+  color: #ff6154;
+  border: 1px solid #ff6154;
+  background-color: rgba(232, 192, 74, 0.5);
+  height: 40px;
+  padding-top: 10px;
+}
+  .faux img {
+    position: relative;
+    top: 2px;
+  }
+a{color:#4072B4;
+  text-decoration:none;
+}
+
+#oublier{
+  float:right;
+}
+.lien-index{
+
+  min-width:550px;
+  width: 78%;
+
+  margin:90px auto 10px auto;
+}
+#f {
+  border: 0px;
+}
+
+.in-erreur {
+  background-color: white;
+  border-color: #ff6154;
+  box-shadow: 0 0 0px #b9080b;
+}
+
+.erreur {
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+  font-weight: 100;
+  color: #ff6154;
+  border: 1px solid #ff6154;
+  background-color: rgba(232, 192, 74, 0.5);
+  margin: 10px;
+  min-height: 30px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.email_confi{
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+  font-weight: 100;
+  color: white;
+  background-color: rgba(0, 153, 51, 0.67);
+  margin: 10px;
+  min-height: 30px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.fermer_green{background:transparent;
+  border: 1px solid transparent;
+  color:white;
+  width: 20px;
+  height: 20px;
+  float: right;
+  font-size: 14px;
+}
+.erreur-fermer{
+  background:transparent;
+  border: 1px solid transparent;
+  color:#ff6154;
+  width: 20px;
+  height: 20px;
+  float: right;
+  font-size: 14px;
+}
+
+/* css de tous  1366 or less */
+@media screen and (max-width: 1366px){
+
+  .in-erreur {
+    width: 400px;
+  }
+  .connecte table #checkbox{
+    border : 0;
+    font-size: 24px;
+    float: left;
+
+  }
+  #checkbox input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+
+  .log-o {
+    width: 180px;
+  }
+
+  .erreur {
+    border: 0px;
+    position: relative;
+    bottom: 12px;
+  }
+
+  .lien-index {
+
+    min-width: 250px;
+    width: 78%;
+
+    margin: 30px auto 10px auto;
+  }
+
+  .connecte {
+
+    min-width: 400px;
+    max-width: 400px;
+
+    min-height: 300px;
+
+  }
+
+  .connecte table input {
+    font-size: 40px;
+    width: 329px;
+    height: 50px;
+  }
+
+  .user-logo {
+    width: 37px;
+    height: 37px;
+    position: relative;
+    top: 0px;
+  }
+
+  .connecte_button {
+    width: 300px;
+    height: 70px;
+    background-size: 30px 30px;
+  }
+
+  .password-logo {
+    width: 37px;
+    height: 37px;
+    position: relative;
+    top: 0px;
+  }
+
+  table {
+    magin-top: 0px;
+  }
+
+}
+@media screen and (max-width: 1920px) and (min-width: 1367px) {
+  body {
+    background-size: 100% 100%;
+    max-width: 1920px;
+    min-height: 620px;
+    width: 100%;
+    height: 100%;
+  }
+  .connecte table #checkbox{
+    border : 0;
+    font-size: 24px;
+    float: left;
+
+  }
+  #checkbox input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+
+  .log-o {
+    width: 180px;
+  }
+
+  .erreur {
+    border: 0px;
+    position: relative;
+    bottom: 12px;
+  }
+
+  .lien-index {
+
+    min-width: 250px;
+    width: 78%;
+
+    margin: 30px auto 10px auto;
+  }
+
+  .connecte {
+
+    min-width: 400px;
+    max-width: 400px;
+
+    min-height: 300px;
+
+  }
+
+  .connecte table input {
+    font-size: 40px;
+    width: 329px;
+    height: 50px;
+  }
+
+  .user-logo {
+    width: 37px;
+    height: 37px;
+    position: relative;
+    top: 0px;
+  }
+
+  .connecte_button {
+    width: 300px;
+    height: 70px;
+    background-size: 30px 30px;
+  }
+
+  .password-logo {
+    width: 37px;
+    height: 37px;
+    position: relative;
+    top: 0px;
+  }
+
+  table {
+    magin-top: 0px;
+  }
+
+
+}
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+
+  body {
+    background-size: 100% 100%;
+    max-width: 1024px;
+    min-height: 480px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
+  section{
+    width: 893px;
+  }
+.connecte{
+  margin: 10px;
+
+}
+}
+@media screen and (max-width: 1366px) and (min-width: 1281px) {
+
+
+  body {
+    background-size: 100% 100%;
+    max-width: 1366px;
+    min-height: 480px;
+    width: 100%;
+    height: 100%;
+  }
+
+
+}
+
+/* 800 and less */
+@media screen and (max-width: 800px) {
+
+  body {
+    background-size: 100% 100%;
+    max-width: 800px;
+    min-height: 350px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .connecte{
+    margin: 5px;
+
+  }
+  section{
+    width: 420px;
+  }
+  .connecte:first-child{
+    display: none;
+  }
+
+}
+
+/*  1280 > 1025  */
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  body {
+    background-size: 100% 100%;
+    max-width: 1280px;
+    min-height: 480px;
+    width: 100%;
+    height: 100%; }
+
+
+  .in-erreur {
+    width: 400px; }
+
+  .log-o {
+    width: 180px; }
+
+  .erreur {
+    border: 0px;
+    position: relative;
+    bottom: 12px; }
+  .lien-index{
+
+    min-width:250px;
+    width: 78%;
+
+    margin:90px auto 10px auto;}
+  .connecte {
+    margin: 20px;
+
+    min-width: 400px;
+    max-width: 400px;
+
+    min-height: 300px;
+  }
+
+  section{
+    width: 893px;
+  }
+
+  .connecte table input {
+    font-size: 42px;
+    width: 329px;
+    height: 50px; }
+
+  .user-logo {
+    width: 37px;
+    height: 37px;
+    position: relative;
+    top: 0px; }
+
+  .connecte_button {
+    width: 300px;
+    height: 70px;
+    background-size: 30px 30px; }
+
+  .password-logo {
+    width: 37px;
+    height: 37px;
+    position: relative;
+    top: 0px; }
+
+   }
+
+/*# sourceMappingURL=style.css.map */
