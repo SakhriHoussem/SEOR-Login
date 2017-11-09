@@ -2,7 +2,7 @@
 
 Login For a System of Store Management for SEOR Algerian company
 
-
+```
 SEORLogin
   |-------css
   |        |-----font
@@ -17,3 +17,4 @@ SEORLogin
   |        |-----seor.png
   |
   |-------index.html
+```
